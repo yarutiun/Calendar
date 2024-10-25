@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.mainContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 12.5%;
+    height: 100vh;
+    background: #43425D;
+    display: flex;
+    flex-direction: column;
+}
+
+.impekable {
+    background: #43425D;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    height: 8%;
+}
+
+.word {
+    margin-left: 5%;
+    font-size: 25px;
+    color: white;
+}
+
+.pic {
+    width: 14px;
+    height: 16px;
+}
+
+.secondContainer {
+    background: #515078;
+    height: 100%;
+    width: 100%;
+}
+
+.leftBot {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-items: center;
+    height: 60%;
+    width: 100%;
+}
+
+.secondContainer button {
+    color: white;
+}
+
+.secondContainer div img {
+    margin-right: 5%;
+    margin-top: 1%;
+}
+
+.home {
+    margin-top: 10px;
+}
+
+button {
+    cursor: pointer;
+    background: none;
+    border: none;
+}
